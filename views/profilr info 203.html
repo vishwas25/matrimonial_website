@@ -1,0 +1,460 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Matrimonial</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <style>
+        body{
+        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+    .emp-profile{
+        padding: 3%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        border-radius: 0.5rem;
+        background: #fff;
+    }
+    .profile-img{
+        text-align: center;
+    }
+    .profile-img img{
+        width: 70%;
+        height: 100%;
+    }
+    .profile-img .file {
+        position: relative;
+        overflow: hidden;
+        margin-top: -20%;
+        width: 70%;
+        border: none;
+        border-radius: 0;
+        font-size: 15px;
+        background: #212529b8;
+    }
+    .profile-img .file input {
+        position: absolute;
+        opacity: 0;
+        right: 0;
+        top: 0;
+    }
+    .profile-head h5{
+        color: #333;
+    }
+    .profile-head h6{
+        color: #0062cc;
+    }
+    .profile-edit-btn{
+        border: none;
+        border-radius: 1.5rem;
+        width: 70%;
+        padding: 2%;
+        font-weight: 600;
+        color: #6c757d;
+        cursor: pointer;
+    }
+    .proile-rating{
+        font-size: 12px;
+        color: #818182;
+        margin-top: 5%;
+    }
+    .proile-rating span{
+        color: #495057;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .profile-head .nav-tabs{
+        margin-bottom:5%;
+    }
+    .profile-head .nav-tabs .nav-link{
+        font-weight:600;
+        border: none;
+    }
+    .profile-head .nav-tabs .nav-link.active{
+        border: none;
+        border-bottom:2px solid #0062cc;
+    }
+    .profile-work{
+        padding: 14%;
+        margin-top: -15%;
+    }
+    .profile-work p{
+        font-size: 12px;
+        color: #818182;
+        font-weight: 600;
+        margin-top: 10%;
+    }
+    .profile-work a{
+        text-decoration: none;
+        color: #495057;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .profile-work ul{
+        list-style: none;
+    }
+    .profile-tab label{
+        font-weight: 600;
+    }
+    .profile-tab p{
+        font-weight: 600;
+        color: #0062cc;
+    }
+      </style>
+
+  </head>
+
+<body>
+<section id="top">
+ <div class="container">
+  <div class="row">
+   <div class="top clearfix">
+    <div class="col-sm-6">
+	 <div class="top_left">
+		<p> Welcome to matrimonial portal</p>
+	</div>
+   </div>
+   <div class="col-sm-6">
+	 <div class="top_right clearfix text-right">
+		 <span class="span_1"><i class="fa fa-phone-square"></i>  +91 - 7219844782  </span>
+		 <span class="span_2"> <i class="fa fa-whatsapp"></i>  +91 - 9404484028 </span>
+	  </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="header" class="cd-secondary-nav">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+     <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">Matrimonial <br><span>Best Matrimony Website</span></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+              <ul class="nav navbar-nav navbar-right">
+                 <li><a class="color_1" href="/login">Home</a></li>
+
+                 <li><a class="color_1" href="about.html">About Us</a></li>
+                 <li><a class="color_1" href="services.html">Services</a></li>
+                 <li><a class="color_1" href="/">Register</a></li>
+                 <li><a class="color_1" href="contact.html">Contact Us</a></li>
+                 <li><a class="color_1  active_1" href="/profile">Profile</a></li>
+                 <li><a class="color_1" href="pages.html">Arrange Wedding</a></li>
+                 <li class="dropdown">
+                   <a class="dropdown-toggle color_1" data-toggle="dropdown" href="services.html" aria-expanded="false"><i style='font-size:24px' class='fas'>👤</i> Ashutosh
+                   <span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="/profile">About Me</a></li>
+                     <li><a href="/logout">Log Out</a></li>
+                         </ul>
+                 </li>
+              </ul>
+             </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div class="about_main clearfix">
+	<section id="about">
+	<img src="img/39.jpg" width="100%">
+	</section>
+	<section id="about_top">
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-12"></div>
+	</div>
+	</div>
+	</section>
+	<section id="about_bottom">
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-12"></div>
+	</div>
+	</div>
+	</section>
+</div>
+
+<section id="about_heading">
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-12">
+    <div class="about_heading">
+	  <h5><a href="a4.html">Back</a> <span>//</span>Profile</h5>
+	  <h1> <span>  PROFILE</span> </h1>
+	</div>
+    <div class="container emp-profile">
+        <form method="post">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-img">
+                        <img src="img/203.jpeg" alt=""/>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="profile-head">
+                                <h3>
+                                 <b> RIYA JOSHI </b>
+                                </h3>
+                                <h4>
+                                  <b>  Profession : Designer </b>
+                                </h4>
+                                <p class="proile-rating">RANKINGS : <span>6/10</span></p>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                            </li>
+                            <li class="nav-item">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <input type="submit" class="profile-edit-btn" name="btnAddMore" value=" LIKE "/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-work">
+                        <p>CONTACT LINK</p>
+                        <a href="https://www.facebook.com/">Facebook</a><br/>
+                        <a href="https://www.instagram.com/">Instagram</a><br/>
+
+
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="tab-content profile-tab" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Name </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>RIYA JOSHI </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Date Of Birth
+                                            </label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>12-Nov-2004</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Religion</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Hindu</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Sex</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>Female</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>Blood Group</label>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>A+</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Height</label>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <p>5'1</p>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Colour</label>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <p>Fair</p>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col-md-6">
+                                          <label>Education</label>
+                                      </div>
+                                      <div class="col-md-6">
+                                          <p>Designer</p>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Drinks</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>NO</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Mother Tounge</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>Hindi</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label>Annual Income</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p>12,00,000 Rs</p>
+                                    </div>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+</section>
+<section>
+    <br><br><br><br>
+</section>
+
+
+<div class="footer_main clearfix">
+ <section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="footer clearfix">
+    <div class="col-sm-3">
+	 <div class="footer_left">
+	  <img src="img/32.jpg">
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	  <div class="footer_right">
+	    <p>
+		<a href="#">Home</a>
+		<a href="#">About Us</a>
+		<a href="#">Services</a>
+		<a href="#">Register</a>
+		<a href="#">Contact Us</a>
+		</p>
+		<div class="footer_right_inner clearfix">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+				</div>
+	  </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="footer_left">
+	  <img src="img/52.jpg">
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="footer_bottom">
+    <div class="container">
+     <div class="row">
+      <div class="footer_bottom clearfix">
+       <div class="col-sm-7">
+        <div class="footer_bottom_left">
+          <p> © 2022 matrimonial.com All Rights Reserved | Design by <a href="https://mitaoe.ac.in/BTECH/">WEB BATCH 5 </a></p>
+        </div>
+       </div>
+       <div class="col-sm-5">
+         <div class="footer_bottom_right text-right">
+           <p><a href="#">Powered By <span> </a href= "https://mitaoe.ac.in/school-of-computer-engineering-and-technology-vinodini-gupta.php">MITAOE PUNE</span></a> </p>
+         </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+</div>
+
+<div id="toTop" class="btn btn-info" style="display: block;"><span class="glyphicon glyphicon-chevron-up"></span>  Top</div>
+
+<script>
+$(document).ready(function(){
+  $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	});
+$('#toTop').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+});
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown(0);
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp(0);
+            $(this).toggleClass('open');
+        }
+    );
+
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+		$(window).on('scroll', function(){
+			if($(window).scrollTop() > secondaryNavTopPosition ) {
+				secondaryNav.addClass('is-fixed');
+			} else {
+				secondaryNav.removeClass('is-fixed');
+			}
+		});
+
+});
+	</script>
+
+</body>
+
+</html>
