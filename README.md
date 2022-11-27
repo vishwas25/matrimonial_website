@@ -7,16 +7,18 @@ Homepage: matrimonial
 Installation
 Use the package manager pip to install the following dependencies:
 
-body-parser
-connect-flash
-ejs
-express
-express-session
-method-override
-mongoose
-passport
-passport-local
-passport-local-mongoose
+  body-parser
+  connect-flash
+  ejs
+  express
+  express-session
+  method-override
+  mongoose
+  passport
+  passport-local
+  passport-local-mongoose
+
+
 How to Run
 After the installation. Do the following:
 
